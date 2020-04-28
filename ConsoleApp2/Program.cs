@@ -15,7 +15,7 @@ namespace ConsoleApp2
 
             string s = Console.ReadLine();
 
-
+            Console.WriteLine("world");
             Console.WriteLine(s);
 
             Console.ReadLine();
