@@ -13,8 +13,12 @@ namespace ConsoleApp2
 
             Console.WriteLine("hello world");
 
-            Console.ReadLine();
+            string s = Console.ReadLine();
 
+
+            Console.WriteLine(s);
+
+            Console.ReadLine();
 
         }
     }
