@@ -1,0 +1,7 @@
+/Users/felipe/Projects/Trabajo_POO/ConsoleApp2/bin/Debug/ConsoleApp2.exe.config
+/Users/felipe/Projects/Trabajo_POO/ConsoleApp2/bin/Debug/ConsoleApp2.exe
+/Users/felipe/Projects/Trabajo_POO/ConsoleApp2/bin/Debug/ConsoleApp2.pdb
+/Users/felipe/Projects/Trabajo_POO/ConsoleApp2/obj/Debug/ConsoleApp2.csprojAssemblyReference.cache
+/Users/felipe/Projects/Trabajo_POO/ConsoleApp2/obj/Debug/ConsoleApp2.csproj.CoreCompileInputs.cache
+/Users/felipe/Projects/Trabajo_POO/ConsoleApp2/obj/Debug/ConsoleApp2.exe
+/Users/felipe/Projects/Trabajo_POO/ConsoleApp2/obj/Debug/ConsoleApp2.pdb

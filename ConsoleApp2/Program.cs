@@ -10,6 +10,18 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
+
+            Console.WriteLine("hello world");
+
+            string s = Console.ReadLine();
+
+            Console.WriteLine("world");
+            Console.WriteLine(s);
+
+            Console.ReadLine();
+
+            //Probando Git push felipecueto
+
         }
     }
 }
