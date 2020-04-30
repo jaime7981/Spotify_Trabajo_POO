@@ -11,23 +11,10 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-
-            Console.WriteLine("hello world");
-
-            string s = Console.ReadLine();
-
-            Console.WriteLine("world");
-            Console.WriteLine(s);
-
-            Console.ReadLine();
-
-            //Probando Git push felipecueto
-            //Probando git de ivan 
-
-            
-
-            
-
+            AppSystem appSystem = new AppSystem();
+            Console.WriteLine("SPOTFLIX");
+            System.Threading.Thread.Sleep(2000);
+            appSystem.StartApp();
 
         }
     }

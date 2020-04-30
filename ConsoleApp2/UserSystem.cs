@@ -20,7 +20,7 @@ namespace ConsoleApp2
         // Realiza el registro 
         public void Register()
         {
-            Console.Write("Bienvenido! Ingrese sus datos de registro en Spotflix: ");
+            Console.Write("Bienvenido");
             Console.Write("Ingrese su Nombre: ");
             string name = Console.ReadLine();
             Console.Write("Ingrese su Apellido: ");
@@ -29,50 +29,41 @@ namespace ConsoleApp2
             string usr = Console.ReadLine();
             Console.Write("Ingrese su Correo: ");
             string email = Console.ReadLine();
-            Console.Write("Ingrese su Contraseña: Contraseña: ");
+            Console.Write("Ingrese su contraseña: ");
             string psswd = Console.ReadLine();
-            Console.Write("Ingrese nuevamente su Contraseña: ");
-            string psswd2 = Console.ReadLine();
-            Console.Write("Numero de telefono: ");
-            string number = Console.ReadLine();
-            // Genera el link de verificacion para el usuario
-            string verificationLink = GenerateLink(usr);
-            // Intenta agregar el usuario a la bdd. Si retorna null, se registro correctamente,
-            // sino, retorna un string de error, que es el que se muestra al usuario
-            string result = Data.AddUser(new List<string>()
-                {usr, email, psswd, verificationLink, Convert.ToString(DateTime.Now), number});
+            string result = AddUser(new List<string>()
+                {usr, email, psswd,name,lastName,Convert.ToString(DateTime.Now)});
             if (result == null)
             {
                 // Disparamos el evento
-                OnRegistered(usr, psswd, verificationlink: verificationLink, email: email);
+                //OnRegistered(usr, psswd, verificationlink: verificationLink, email: email);
             }
             else
             {
                 // Mostramos el error
-                Console.WriteLine("[!] ERROR: " + result + "\n");
+                //Console.WriteLine("[!] ERROR: " + result + "\n");
             }
+
         }
 
         // Realiza el cambio de contrasena
         public void ChangePassword()
         {
-            // Pedimos todos los datos necesarios
             Console.WriteLine("Ingresa tu nombre de usuario: ");
             string usr = Console.ReadLine();
-            Console.WriteLine("Ingresa tu contrasena: ");
+            Console.WriteLine("Ingrese su actual contrasena: ");
             string pswd = Console.ReadLine();
-            // Intenta realizar el login, si retorna null se logeo correctamente,
-            // sino, retorna un string de error que se le muestra al usuario
-            string result = Data.LogIn(usr, pswd);
+            string result = LogIn(usr, pswd);
+
             if (result == null)
             {
                 // Pedimos y cambiamos la contrasena
                 Console.Write("Ingrese la nueva contrasena: ");
                 string newPsswd = Console.ReadLine();
-                Data.ChangePassword(usr, newPsswd);
+                ChangePassword(usr, newPsswd);
                 // Obtenemos los datos del usuario que se logueo y disparamos el evento con los datos necesarios
-                List<string> data = Data.GetData(usr);
-                OnPasswordChanged(data[0], data[1], data[5]);
+                List<string> data = GetData(usr);
+                //OnPasswordChanged(data[0], data[1], data[5]);
             }
             else
             {
@@ -125,7 +116,22 @@ namespace ConsoleApp2
             }
 
             return new List<string>();
+
         }
+
+        public string LogIn(string usrname, string password)
+        {
+            string description = null;
+            foreach (List<string> user in this.registered.Values)
+            {
+                if (user[0] == usrname && user[2] == password)
+                {
+                    return description;
+                }
+            }
+            return "Usuario o contrasena incorrecta";
+        }
+
 
     }
 }
