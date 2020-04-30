@@ -11,10 +11,14 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            AppSystem appSystem = new AppSystem();
-            Console.WriteLine("SPOTFLIX");
-            System.Threading.Thread.Sleep(2000);
-            appSystem.StartApp();
+            bool run = true;
+            while(run)
+            {
+                AppSystem appSystem = new AppSystem();
+                Console.WriteLine("SPOTFLIX");
+                System.Threading.Thread.Sleep(2000);
+                appSystem.StartApp();
+            }
 
         }
     }

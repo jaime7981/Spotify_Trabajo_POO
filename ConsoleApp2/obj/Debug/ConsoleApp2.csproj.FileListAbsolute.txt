@@ -4,3 +4,10 @@
 /Users/felipe/Projects/Trabajo_POO/ConsoleApp2/obj/Debug/ConsoleApp2.csprojAssemblyReference.cache
 /Users/felipe/Projects/Trabajo_POO/ConsoleApp2/obj/Debug/ConsoleApp2.exe
 /Users/felipe/Projects/Trabajo_POO/ConsoleApp2/obj/Debug/ConsoleApp2.pdb
+C:\Users\jaime\Desktop\POO\Ptotecto_Poo\ConsoleApp2\bin\Debug\ConsoleApp2.exe.config
+C:\Users\jaime\Desktop\POO\Ptotecto_Poo\ConsoleApp2\bin\Debug\ConsoleApp2.exe
+C:\Users\jaime\Desktop\POO\Ptotecto_Poo\ConsoleApp2\bin\Debug\ConsoleApp2.pdb
+C:\Users\jaime\Desktop\POO\Ptotecto_Poo\ConsoleApp2\obj\Debug\ConsoleApp2.csprojAssemblyReference.cache
+C:\Users\jaime\Desktop\POO\Ptotecto_Poo\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.CoreCompileInputs.cache
+C:\Users\jaime\Desktop\POO\Ptotecto_Poo\ConsoleApp2\obj\Debug\ConsoleApp2.exe
+C:\Users\jaime\Desktop\POO\Ptotecto_Poo\ConsoleApp2\obj\Debug\ConsoleApp2.pdb
