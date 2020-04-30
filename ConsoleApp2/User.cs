@@ -29,13 +29,27 @@ namespace ConsoleApp2
             this.privacy = Privacy;
             this.premium = Premium;
         
-        
-        
         }
 
+        public void ShowInformation()
+        {
+            throw new NotImplementedException();
+        }
 
+        public void Follow()
+        {
+            throw new NotImplementedException();
+        }
 
+        public void Advertistemt()
+        {
+            throw new NotImplementedException();
+        }
 
+        public void Like()
+        {
+            throw new NotImplementedException();
+        }
 
     }
 }

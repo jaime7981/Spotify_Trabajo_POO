@@ -15,11 +15,14 @@ namespace ConsoleApp2
             while(run)
             {
                 AppSystem appSystem = new AppSystem();
+                Reproduction player = new Reproduction();
+
+                player.Onplay(true);
+
                 Console.WriteLine("SPOTFLIX");
                 System.Threading.Thread.Sleep(2000);
                 appSystem.StartApp();
             }
-
         }
     }
 }

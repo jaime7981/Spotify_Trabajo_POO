@@ -11,3 +11,6 @@ C:\Users\jaime\Desktop\POO\Ptotecto_Poo\ConsoleApp2\obj\Debug\ConsoleApp2.csproj
 C:\Users\jaime\Desktop\POO\Ptotecto_Poo\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.CoreCompileInputs.cache
 C:\Users\jaime\Desktop\POO\Ptotecto_Poo\ConsoleApp2\obj\Debug\ConsoleApp2.exe
 C:\Users\jaime\Desktop\POO\Ptotecto_Poo\ConsoleApp2\obj\Debug\ConsoleApp2.pdb
+C:\Users\jaime\Desktop\POO\Ptotecto_Poo\ConsoleApp2\obj\Debug\Interop.MediaPlayer.dll
+C:\Users\jaime\Desktop\POO\Ptotecto_Poo\ConsoleApp2\obj\Debug\Interop.WMPLib.dll
+C:\Users\jaime\Desktop\POO\Ptotecto_Poo\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.ResolveComReference.cache
