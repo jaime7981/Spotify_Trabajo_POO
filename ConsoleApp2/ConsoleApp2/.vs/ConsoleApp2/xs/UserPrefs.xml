@@ -1,20 +1,19 @@
 ﻿<Properties StartupConfiguration="{4E5948FF-BDBE-4F2E-B777-70A23C977E99}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Video.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
       <File FileName="Album.cs" Line="1" Column="1" />
-      <File FileName="ProgramConsole.cs" />
-      <File FileName="Queue.cs" />
-      <File FileName="Song.cs" />
-      <File FileName="UserSystem.cs" />
+      <File FileName="ProgramConsole.cs" Line="1" Column="1" />
+      <File FileName="Queue.cs" Line="1" Column="1" />
+      <File FileName="Song.cs" Line="1" Column="1" />
+      <File FileName="UserSystem.cs" Line="1" Column="1" />
       <File FileName="Program.cs" Line="1" Column="1" />
-      <File FileName="Video.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ConsoleApp2" expanded="True">
             <Node name="ConsoleApp2" expanded="True">
-              <Node name="Video.cs" selected="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
