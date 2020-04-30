@@ -34,8 +34,9 @@ namespace ConsoleApp2
             qualification = Qualification;
             reproduction = Reproduction;
 
-        }
 
+        }
+        public string Getinfovideo { get; set; }
         
 
 

@@ -8,5 +8,23 @@ namespace ConsoleApp2
 {
     class Reproduction
     {
+
+        bool Songorvideo;
+
+
+
+
+
+        public void Onplay()
+        {
+
+
+
+
+
+
+
+
+        }
     }
 }
